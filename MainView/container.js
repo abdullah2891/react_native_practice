@@ -12,13 +12,17 @@ export default class ContainerApp extends React.Component {
   state = {
     fontLoaded: false,
   };
-   async componentDidMount() {
+
+  async componentDidMount() {
     await Font.loadAsync({
       'Roboto_medium': require('native-base/Fonts/Roboto_medium.ttf'),
     });
     //Setting the state to true when font is loaded.
     this.setState({ fontLoaded: true });
   }
+
+
+
   render() {
     return (
         <Container>
