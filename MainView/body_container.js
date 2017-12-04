@@ -40,10 +40,10 @@ export default class BodyComponent extends React.Component {
                 This is Content Section
                 </Text>
             </Content>
-            <Grid>
+            {/* <Grid>
                 <Col style={{ backgroundColor: '#635DB7', height: 200 }}></Col>
                 <Col style={{ backgroundColor: '#00CE9F', height: 200 }}></Col>
-            </Grid>
+            </Grid> */}
 
             </View>
         )
